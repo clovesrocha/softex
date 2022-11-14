@@ -3,7 +3,7 @@
 Uma Introdução com foco na colaboração.
 - Tutor: Prof. MsC. Cloves Rocha.
 
-1. Começando 
+1. Começando... 
 - Sobre Controle de Versão
 De forma resumida, abordaremos aqui como começar com o Git. 
 Nós vamos começar explicando sobre algumas ferramentas de controle da versão, então vamos falar de como ter o Git rodando no seu sistema e finalmente como configurado para começar a trabalhar com ele. 
