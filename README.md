@@ -52,7 +52,7 @@ O Git armazena e vê informações de forma muito diferente do que esses outros 
 4. Fundamentos do Git - Obtendo um Repositório Git
 - Você pode obter um projeto Git utilizando duas formas principais. 1. Você pode pegar um diretório local que atualmente não está sob controle de versão e transformá-lo em um repositório Git, ou 2. Você pode fazer um clone de um repositório Git existente em outro lugar.
 
-Inicializando um Repositório em um Diretório Existente
+- Inicializando um Repositório em um Diretório Existente
 Para você começar a monitorar um projeto existente com Git, você deve ir para o diretório desse projeto. Se você nunca fez isso, use o comando a seguir, que terá uma pequena diferença dependendo do sistema em que está executando:
 
 para Linux:
@@ -67,27 +67,39 @@ $ cd /c/user/your_repository
 depois digite:
 
 $ git init
-Isso cria um novo subdiretório chamado .git que contém todos os arquivos necessários de seu repositório – um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado ainda. (Veja [ch10-git-internals] para mais informações sobre quais arquivos estão contidos no diretório .git que foi criado.)
+- Isso cria um novo subdiretório chamado .git que contém todos os arquivos necessários de seu repositório – um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado ainda. (Veja [ch10-git-internals] para mais informações sobre quais arquivos estão contidos no diretório .git que foi criado.)
 
-Se você quer começar a controlar o versionamento dos arquivos existentes (ao contrário de um diretório vazio), você provavelmente deve começar a monitorar esses arquivos e fazer um commit inicial. Você pode fazer isso com alguns comandos git add que especificam os arquivos que você quer monitorar, seguido de um git commit:
+- Se você quer começar a controlar o versionamento dos arquivos existentes (ao contrário de um diretório vazio), você provavelmente deve começar a monitorar esses arquivos e fazer um commit inicial. Você pode fazer isso com alguns comandos git add que especificam os arquivos que você quer monitorar, seguido de um git commit:
 
 $ git add *.c
 $ git add LICENSE
 $ git commit -m 'initial project version'
-Nós já veremos o que esses comandos fazem. Mas neste ponto você já tem um repositório Git com arquivos monitorados e um commit inicial.
+Nós já veremos o que esses comandos fazem. 
+Mas neste ponto você já tem um repositório Git com arquivos monitorados e um commit inicial.
 
 Clonando um Repositório Existente
-Caso você queira obter a cópia de um repositório Git existente – por exemplo, um projeto que você queira contribuir – o comando para isso é git clone. Se você estiver familiarizado com outros sistemas VCS, tal como Subversion, você vai notar que o comando é clone e não checkout. Essa é uma diferença importante – em vez de receber apenas uma cópia para trabalho, o Git recebe uma cópia completa de praticamente todos os dados que o servidor possui. Cada versão de cada arquivo no histórico do projeto é obtida por padrão quando você executa git clone. De fato, se o disco do servidor ficar corrompido, em geral você pode usar qualquer uma das cópias de qualquer um dos clientes para reverter o servidor ao estado em que estava quando foi clonado (talvez você perca algumas configurações do servidor, mas todos os dados versionados estarão lá — veja Getting Git on a Server para mais detalhes).
+- Caso você queira obter a cópia de um repositório Git existente – por exemplo, um projeto que você queira contribuir – o comando para isso é git clone. Se você estiver familiarizado com outros sistemas VCS, tal como Subversion, você vai notar que o comando é clone e não checkout. Essa é uma diferença importante – em vez de receber apenas uma cópia para trabalho, o Git recebe uma cópia completa de praticamente todos os dados que o servidor possui. Cada versão de cada arquivo no histórico do projeto é obtida por padrão quando você executa git clone. De fato, se o disco do servidor ficar corrompido, em geral você pode usar qualquer uma das cópias de qualquer um dos clientes para reverter o servidor ao estado em que estava quando foi clonado (talvez você perca algumas configurações do servidor, mas todos os dados versionados estarão lá — veja Getting Git on a Server para mais detalhes).
 
-Você clona um repositório com git clone [url]. Por exemplo, caso você queria clonar a biblioteca Git Linkable chamada libgit2, você pode fazer da seguinte forma:
+Você clona um repositório com git clone [url]. 
+Por exemplo, caso você queria clonar a biblioteca Git Linkable chamada libgit2, você pode fazer da seguinte forma:
 
 $ git clone https://github.com/libgit2/libgit2
-Isso cria um diretório chamado libgit2, inicializa um diretório .git dentro dele, recebe todos os dados deste repositório e deixa disponível para trabalho a cópia da última versão. Se você entrar no novo diretório libgit2, você verá os arquivos do projeto nele, pronto para serem editados ou utilizados. Caso você queira clonar o repositório em um diretório diferente de libgit2, é possível especificar esse diretório utilizando a opção abaixo:
+- Isso cria um diretório chamado libgit2, inicializa um diretório .git dentro dele, recebe todos os dados deste repositório e deixa disponível para trabalho a cópia da última versão. Se você entrar no novo diretório libgit2, você verá os arquivos do projeto nele, pronto para serem editados ou utilizados. Caso você queira clonar o repositório em um diretório diferente de libgit2, é possível especificar esse diretório utilizando a opção abaixo:
 
 $ git clone https://github.com/libgit2/libgit2 mylibgit
-Este comando faz exatamente a mesma coisa que o anterior, mas o diretório de destino será chamado mylibgit.
+- Este comando faz exatamente a mesma coisa que o anterior, mas o diretório de destino será chamado mylibgit.
 
 O Git possui diversos protocolos de transferência que você pode utilizar. O exemplo anterior usa o protocolo https://, mas você também pode ver git:// ou user@server:path/to/repo.git, que usam o protocolo de transferência SSH. Em Getting Git on a Server é apresentado todas as opções disponíveis com as quais o servidor pode ser configurado para acessar o seu repositório Git, e os prós e contras de cada uma.
 
+5. Pedindo Ajuda
+- Se você precisar de ajuda para usar o Git, há três formas de acessar a página do manual de ajuda (manpage) para qualquer um dos comandos Git:
+
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+- Por exemplo, você pode ver a manpage do commando config rodando
+
+$ git help config 
+- Estes comandos podem ser acessados de qualquer lugar, mesmo desconectado. Se as manpages e este livro não forem suficientes e você precisar de ajuda personalizada, você pode tentar os canais #git ou #github no servidor IRC Freenode (irc.freenode.net). Estes canais estão sempre cheios com centenas de pessoas que são bem versadas com o Git e dispostas a ajudar.
 
 Fonte: https://git-scm.com/book/pt-br/v2
