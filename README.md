@@ -103,3 +103,6 @@ $ git help config
 - Estes comandos podem ser acessados de qualquer lugar, mesmo desconectado. Se as manpages e este livro não forem suficientes e você precisar de ajuda personalizada, você pode tentar os canais #git ou #github no servidor IRC Freenode (irc.freenode.net). Estes canais estão sempre cheios com centenas de pessoas que são bem versadas com o Git e dispostas a ajudar.
 
 Fonte: https://git-scm.com/book/pt-br/v2
+
+6. GitHub - Contribuindo em um projeto na prática...
+  - Este conteúdo será aplicado na prática no laboratório da Softex Recife.
