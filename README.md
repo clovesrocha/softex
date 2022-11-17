@@ -4,11 +4,13 @@ Uma Introdução com foco na colaboração.
 - Tutor: Prof. MsC. Cloves Rocha.
 
 1. Começando... 
-- Sobre Controle de Versão
+- Sobre Controle de Versão.
+
 De forma resumida, abordaremos aqui como começar com o Git. 
 Nós vamos começar explicando sobre algumas ferramentas de controle da versão, então vamos falar de como ter o Git rodando no seu sistema e finalmente como configurado para começar a trabalhar com ele. 
 
-- Sobre Controle de Versão
+- Sobre Controle de Versão.
+
 O que é "controle de versão", e porque eu deveria me importar?
 
 - Controle de versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo para que você possa lembrar as versões específicas mais tarde. 
