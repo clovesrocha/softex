@@ -106,4 +106,4 @@ Fonte: https://git-scm.com/book/pt-br/v2
 
 6. GitHub - Contribuindo em um projeto na prática...
   - Este conteúdo será aplicado na prática no laboratório da Softex Recife.
-  -- Criando um Repositório -> started https://docs.github.com/pt/get-started/quickstart/create-a-repo
+  - Criando um Repositório => started https://docs.github.com/pt/get-started/quickstart/create-a-repo
