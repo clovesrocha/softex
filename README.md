@@ -1,4 +1,5 @@
 # MINICURSO GITHUB
+Link Deploy: https://clovesrocha.github.io/softex/ 
 
 Uma Introdução com foco na colaboração.
 - Tutor: Prof. MsC. Cloves Rocha.
