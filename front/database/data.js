@@ -61,7 +61,7 @@ export default  [
         github: 'marlonpaulo1',
         linkedin: 'marlon-paulo-silva-amaral',
         instagram: 'marlon_paulo1',
-        page: './pages/marlon.html'
+        page: './front/pages/marlon.html'
     },
     {
         nome: 'Matheus Dutra',
