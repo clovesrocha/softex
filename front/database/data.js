@@ -25,11 +25,11 @@ export default  [
     },
     {
         nome: 'Heitor França',
-        email: '',
+        email: 'heitorklb@gmail.com',
         github: 'Heitorfrc',
-        linkedin: '',
-        instagram: '',
-        page: ''
+        linkedin: 'https://www.linkedin.com/in/heitor-fran%C3%A7a-793b63249/',
+        instagram: 'Heitorfrc',
+        page: './front/pages/heitor.html'
     },
     {
         nome: 'João Ferreira',
