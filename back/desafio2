@@ -1,0 +1,14 @@
+Desafio #2
+- Desenvolva um CRUD, sistema de cadastro dos estudantes da Softex Recife com banco de dados.
+
+Requisitos / Dados dos Estudantes:
+
+- nome: 'Cloves Rocha',
+- email: '',
+- github: 'martins8',
+- linkedin: '',
+- instagram: '',
+- page: ''
+
+Tecnologias Sugeridas:
+- Mongo DB, MySQL ou SQLite.
