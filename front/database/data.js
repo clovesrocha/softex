@@ -71,4 +71,12 @@ export default  [
         instagram: '',
         page: ''
     },
+    {
+        nome: 'Pablo Romero',
+        email: '',
+        github: 'pabloromeero',
+        linkedin: '',
+        instagram: '',
+        page: ''
+    },
 ]
