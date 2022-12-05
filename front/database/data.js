@@ -27,7 +27,7 @@ export default  [
         nome: 'Heitor França',
         email: 'heitorklb@gmail.com',
         github: 'Heitorfrc',
-        linkedin: 'https://www.linkedin.com/in/heitor-fran%C3%A7a-793b63249/',
+        linkedin: 'heitor-frança-793b63249/',
         instagram: 'Heitorfrc',
         page: './front/pages/heitor.html'
     },
