@@ -24,6 +24,14 @@ export default  [
         page: ''
     },
     {
+        nome: 'Gustavo Santana',
+        email: 'gustavosantlopes2@gmail.com',
+        github: 'gugasant',
+        linkedin: 'gustavo-santana-41b753230/',
+        instagram: 'gustavossantt',
+        page: './front/pages/gustavo.html'
+    },
+    {
         nome: 'Heitor França',
         email: 'heitorklb@gmail.com',
         github: 'Heitorfrc',
