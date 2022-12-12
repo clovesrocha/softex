@@ -17,11 +17,11 @@ export default  [
     },
     {
         nome: 'Flora Fernandes Martins',
-        email: '',
+        email: 'florafernandes.arq@gmail.com',
         github: 'florafernandes',
-        linkedin: '',
-        instagram: '',
-        page: ''
+        linkedin: 'florafernandesmartins',
+        instagram: 'florafrnnds',
+        page: './front/pages/flora.html'
     },
     {
         nome: 'Gustavo Santana',
