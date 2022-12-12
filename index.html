@@ -1,19 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/image/logo.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./front/css/index.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/25fb4a0d60.js" crossorigin="anonymous"></script>
     <title>Formação Softex</title>
 </head>
 <body>
-    <div class="cards"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <img src="./assets/image/logo.png" alt="Softex Recife">   
+                <div class="links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projeto">Projeto</a></li>
+                        <li><a href="/">Alunos</a></li>
+                        <li><a href="/">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="toggle">
+                    <div class="toggle__burger"></div>
+                </div> 
+            </nav>    
+        </header>
 
-    <script src="./front/js/index.js" type='module'></script>
+        <main>
+            <article id="home">
+                <div class="text-home">
+                    <h1>Formação Softex</h1>
+                    <p>Curso de programação front-end e back-end</p>    
+                </div>
+                <img src="./assets/image/dev.svg" alt="Ilustração de uma desenvolvedora de soft">               
+            </article>
+
+            <article id="sobre">
+                <p>O Centro de Excelência em Tecnologia de Software (Softex Pernambuco) realiza o programa Formação Acelerada em Programação (FAP). Com o objetivo de formar mil profissionais para o mercado de TI, a ação é desenvolvida com recursos do Ministério da Ciência, Tecnologia e Inovação, a partir do Softex Nacional, e parceria da Associação das Empresas de Tecnologia da Informação e instituições de ensino.</p>
+                <p>A formação é gratuita e vai capacitar mil jovens e adultos em 24 semanas, com um total de 276 horas, sendo 180 no modo Ensino a Distância (EaD) e 96 horas de aula presenciais.</p>
+                <p>Entre os núcleos de formação do programa, estão a Região Metropolitana do Recife, Caruaru, Garanhuns e Petrolina.</p>
+
+                <p>Os alunos de curso de Front end aprenderão as linguagens:</p>
+                <ul>
+                    <li>Lógica de Programação e Orientação a Objetos</li>
+                    <li>JavaScript</li>
+                    <li>HTML + CSS / SASS</li>
+                    <li>React JS</li>
+                    <li>Web services - Client</li>
+                    <li>Noções de UX</li>
+                </ul>
+
+                <p>Os alunos de curso de Back end aprenderão as linguagens:</p>
+                <ul>
+                    <li>Lógica de Programação e Orientação a Objetos</li>
+                    <li>Java Script</li>
+                    <li>Padrões de Desenvolvimento de Software</li>
+                    <li>Web Services - Server</li>
+                    <li>Noções de Banco de Dados</li>
+                    <li>Node JS + express</li>
+                </ul>
+            </article>
+
+            <article id="projeto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae ut animi illo quis quibusdam iste repellat eveniet dicta minima libero, suscipit hic culpa. Nulla doloremque necessitatibus deleniti ipsum atque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae ut animi illo quis quibusdam iste repellat eveniet dicta minima libero, suscipit hic culpa. Nulla doloremque necessitatibus deleniti ipsum atque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae ut animi illo quis quibusdam iste repellat eveniet dicta minima libero, suscipit hic culpa. Nulla doloremque necessitatibus deleniti ipsum atque.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae ut animi illo quis quibusdam iste repellat eveniet dicta minima libero, suscipit hic culpa. Nulla doloremque necessitatibus deleniti ipsum atque.
+            </article>
+
+            <article id="professor">
+                <h2>Professor</h2>
+                <div class="container-professor">
+                    <img src="./assets/image/teaching.svg" alt="Professor dando aula" class="img">
+                    <div class="bio-professor">                      
+                        <div class="info">
+                            <img src="https://github.com/clovesrocha.png" alt="Cloves Rocha">
+                            <h3>Cloves Rocha</h3> 
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptate at rem veniam provident assumenda consequatur ut autem nisi! Quas consequuntur libero aliquid dolores veritatis excepturi sed saepe pariatur ipsum.</p>
+                    </div>    
+                </div>
+            </article>
+        </main>
+    </div>
+    
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
